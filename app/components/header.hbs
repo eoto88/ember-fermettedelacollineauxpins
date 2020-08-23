@@ -1,0 +1,24 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <LinkTo @route="index" class="menu-index">
+                    <h1>Fermette de la colline aux pins</h1>
+                </LinkTo>
+            </div>
+            <div class="col-12">
+                <BsNav @type="tabs" as |nav|>
+                    <nav.item>
+                        <nav.linkTo @route="index">Accueil</nav.linkTo>
+                    </nav.item>
+                    <nav.item>
+                        <nav.linkTo @route="order">Commandes</nav.linkTo>
+                    </nav.item>
+                    <nav.item>
+                        <nav.linkTo @route="user">User</nav.linkTo>
+                    </nav.item>
+                </BsNav>
+            </div>
+        </div>
+    </div>
+</header>

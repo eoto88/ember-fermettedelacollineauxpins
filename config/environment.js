@@ -17,6 +17,16 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyBDiQLvlG1sHpyztDo66OuRqdISiRsqL2g",
+      authDomain: "fermette-colline-aux-pins.firebaseapp.com",
+      databaseURL: "https://fermette-colline-aux-pins.firebaseio.com",
+      projectId: "fermette-colline-aux-pins",
+      storageBucket: "fermette-colline-aux-pins.appspot.com",
+      messagingSenderId: "409101117678",
+      appId: "1:409101117678:web:3ba051fdc5c7c70a316bff"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
